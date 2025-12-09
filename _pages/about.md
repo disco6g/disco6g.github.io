@@ -6,7 +6,7 @@ subtitle: DISCO6G-CM
 
 profile:
   align: right
-  image: logo_disco6g_squared.png
+  image: logo_disco6g_squared_low.png
   # image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
@@ -29,4 +29,4 @@ latest_posts:
 
 DISCO6G (Desarrollo e Integración de Sensores y COmunicaciones para servicios avanzados en 6G)
 
-![Figura conceptual DISCO6G](/assets/img/figura_conceptual_disco6g.png)
+![Figura conceptual DISCO6G](/assets/img/figura_conceptual_disco6g_low.png)

@@ -1,14 +1,37 @@
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+    <div style="min-width:0;">
+      {% if site.funding_text %}
+        <div style="font-size:0.85rem; line-height:1.2; margin-bottom:6px;">
+          {{ site.funding_text }}
+        </div>
+      {% endif %}
+
+      <div style="font-size:0.85rem; line-height:1.2;">
+        &copy; Copyright {{ site.time | date: '%Y' }}
+        {{ site.first_name }}
+        {{ site.middle_name }}
+        {{ site.last_name }}.
+        {{ site.footer_text }}
+        {% if site.impressum_path %}
+          <a href="{{ site.impressum_path | relative_url }}">Impressum</a>.
+        {% endif %}
+        {% if site.last_updated %}
+          Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+        {% endif %}
+      </div>
+    </div>
+
+    {% if site.funding_logo %}
+      <div style="flex:0 0 auto;">
+        <img
+          src="{{ site.funding_logo | relative_url }}"
+          alt="Comunidad de Madrid"
+          style="height:24px; width:auto; opacity:0.8;"
+        >
+      </div>
+    {% endif %}
+  </div>
 {% endcapture %}
 
 {% if site.footer_fixed %}

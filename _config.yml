@@ -12,8 +12,24 @@ email: dansevar@ing.uc3m.es
 # description: > # the ">" symbol means to ignore newlines until "footer_text:"
 #   Integrated Physics Modeling and Efficient Computing
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  <p>
+  Proyecto financiado por la Comunidad de Madrid a través de la convocatoria
+  <strong>Programas de actividades de I+D en Tecnologías 2024</strong>
+  y concedido por la <strong>ORDEN 5696/2024, de 10 de diciembre</strong>,
+  del Consejero de Educación, Ciencia y Universidades.
+  </p>
+  <p>
+    <img src="/assets/img/logo-cam.jpg"
+         alt="Comunidad de Madrid"
+         style="max-height:50px; width:auto;">
+  </p>
+  <hr>
+  <p>
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  </p>
+
 # keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📡 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

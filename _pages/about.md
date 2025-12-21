@@ -9,7 +9,7 @@ profile:
   image: logo_disco6g_squared_low.png
   # image_circular: false # crops the image to make it circular
   # more_info: >
-  #   <p>555 your office number</p>
+  #   <p>555 your office number</p>M
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
 
@@ -29,4 +29,16 @@ latest_posts:
 
 DISCO6G (Desarrollo e Integración de Sensores y COmunicaciones para servicios avanzados en 6G)
 
-![Figura conceptual DISCO6G](/assets/img/figura_conceptual_disco6g_low.png)
+<img
+  src="/assets/img/figura_conceptual_disco6g_low.png"
+  alt="Figura conceptual DISCO6G"
+  class="img-fluid"
+>
+
+Proyecto financiado por la Comunidad de Madrid a través de la convocatoria Programas de actividades de I+D en Tecnologías 2024 y concedido por la ORDEN 5696/2024, de 10 de diciembre, del Consejero de Educación, Ciencia y Universidades.
+
+<img
+  src="/assets/img/logo-cam.jpg"
+  alt="Logo de la entidad financiadora"
+  class="img-fluid"
+>

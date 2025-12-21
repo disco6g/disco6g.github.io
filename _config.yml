@@ -12,17 +12,24 @@ email: dansevar@ing.uc3m.es
 # description: > # the ">" symbol means to ignore newlines until "footer_text:"
 
 footer_text: >
-  Proyecto financiado por la Comunidad de Madrid a través de la convocatoria
-  <strong>Programas de actividades de I+D en Tecnologías 2024</strong>
-  y concedido por la <strong>ORDEN 5696/2024, de 10 de diciembre</strong>.
-  <img src="/assets/img/logo_cam.png"
-       alt="Comunidad de Madrid"
-       style="height:60px;width:auto;vertical-align:middle;margin-left:.5rem;">
-  <br>
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
-  <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  <div style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+    <div style="font-size:0.85rem; line-height:1.2;">
+      Proyecto financiado por la Comunidad de Madrid a través de la convocatoria
+      Programas de actividades de I+D en Tecnologías 2024
+      y concedido por la ORDEN 5696/2024, de 10 de diciembre.
+    </div>
 
+    <img
+      src="/assets/img/logo-cam.jpg"
+      alt="Comunidad de Madrid"
+      style="height:18px; width:auto; opacity:0.85; flex:0 0 auto;"
+    >
+  </div>
+  <div style="font-size:0.85rem; line-height:1.2; margin-top:6px;">
+    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+    <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  </div>
 
 # keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)

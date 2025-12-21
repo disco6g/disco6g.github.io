@@ -10,14 +10,20 @@ email: dansevar@ing.uc3m.es
 # contact_note: >
   # You can even add a little note about which of these is the best way to reach you.
 # description: > # the ">" symbol means to ignore newlines until "footer_text:"
-funding_text: >
-  Proyecto financiado por la Comunidad de Madrid a través de la convocatoria Programas de actividades de I+D en Tecnologías 2024
-  y concedido por la ORDEN 5696/2024, de 10 de diciembre, del Consejero de Educación, Ciencia y Universidades.
-funding_logo: /assets/img/logo-cam.jpg
+
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Proyecto financiado por la Comunidad de Madrid a través de la convocatoria
+  <strong>Programas de actividades de I+D en Tecnologías 2024</strong>
+  y concedido por la <strong>ORDEN 5696/2024, de 10 de diciembre</strong>.
+  <img src="/assets/img/logo_cam.png"
+       alt="Comunidad de Madrid"
+       style="height:60px;width:auto;vertical-align:middle;margin-left:.5rem;">
+  <br>
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  
+
+
 # keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📡 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

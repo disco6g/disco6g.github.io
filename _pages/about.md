@@ -29,5 +29,5 @@ latest_posts:
 
 DISCO6G (Desarrollo e Integración de Sensores y COmunicaciones para servicios avanzados en 6G)
 
-![Figura conceptual DISCO6G]({{ '/assets/img/figura_conceptual_disco6g_low.png' | relative_url }}){: .img-fluid }
+![Figura conceptual DISCO6G]({{ '/assets/img/figura_conceptual_disco6g_low.png' | relative_url }}){: .img-fluid .w-100 }
 

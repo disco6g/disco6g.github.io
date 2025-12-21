@@ -1,36 +1,14 @@
 {% capture footer_contents %}
-  <div class="footer-content d-flex align-items-center justify-content-between gap-3">
-    <div class="footer-text">
-      {% if site.funding_text %}
-        <div class="funding-text mb-1">
-          {{ site.funding_text }}
-        </div>
-      {% endif %}
-
-      <div class="copyright-text">
-        &copy; Copyright {{ site.time | date: '%Y' }}
-        {{ site.first_name }}
-        {{ site.middle_name }}
-        {{ site.last_name }}.
-        {{ site.footer_text }}
-        {% if site.impressum_path %}
-          <a href="{{ site.impressum_path | relative_url }}">Impressum</a>.
-        {% endif %}
-        {% if site.last_updated %}
-          Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-        {% endif %}
-      </div>
-    </div>
-
-    {% if site.funding_logo %}
-      <div class="footer-logo">
-        <img
-          src="{{ site.funding_logo | relative_url }}"
-          alt="Comunidad de Madrid"
-        >
-      </div>
-    {% endif %}
-  </div>
+  &copy; Copyright {{ site.time | date: '%Y' }}
+  {{ site.first_name }}
+  {{ site.middle_name }}
+  {{ site.last_name }}. {{ site.footer_text }}
+  {% if site.impressum_path %}
+    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+  {% endif %}
+  {% if site.last_updated %}
+    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+  {% endif %}
 {% endcapture %}
 
 {% if site.footer_fixed %}

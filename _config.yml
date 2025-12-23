@@ -17,19 +17,15 @@ footer_text: >
       Proyecto financiado por la Comunidad de Madrid a través de la convocatoria
       Programas de actividades de I+D en Tecnologías 2024
       y concedido por la ORDEN 5696/2024, de 10 de diciembre.
+      Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+      <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+      Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
     </div>
 
     <img
       src="/assets/img/logo_cam.png"
       alt="Comunidad de Madrid"
-      style="height:60px; width:auto; opacity:0.85; flex:0 0 auto;"
-    >
-  </div>
-
-  <div style="font-size:0.85rem; line-height:1.2; margin-top:6px; color:inherit;">
-    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
-    <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+      style="height:80px; width:auto; opacity:0.85; flex:0 0 auto;"
   </div>
 
 

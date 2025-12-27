@@ -25,7 +25,7 @@ footer_text: >
     <img
       src="/assets/img/logo_cam.png"
       alt="Comunidad de Madrid"
-      style="height:40px; width:auto; opacity:0.85; flex:0 0 auto;"
+      style="height:60px; width:auto; opacity:0.85; flex:0 0 auto;"
     />
   </div>
 

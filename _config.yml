@@ -25,9 +25,9 @@ footer_text: >
     <img
       src="/assets/img/logo_cam.png"
       alt="Comunidad de Madrid"
-      style="height:80px; width:auto; opacity:0.85; flex:0 0 auto;"
+      style="height:40px; width:auto; opacity:0.85; flex:0 0 auto;"
+    />
   </div>
-
 
 # keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -62,7 +62,7 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: false
 posts_in_search: false

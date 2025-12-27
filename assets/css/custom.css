@@ -1,0 +1,6 @@
+/* Logos en layout profiles (/groups/) */
+.profiles .profile img {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+}

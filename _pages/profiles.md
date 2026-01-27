@@ -26,7 +26,7 @@ profiles:
     content: about_giros.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      GIROS-UPM
+      <a href="https://www.dit.upm.es/~giros"> GIROS-UPM</a>
   - align: left
     image: logo_upm.png
     content: about_grc.md

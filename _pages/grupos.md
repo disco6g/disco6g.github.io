@@ -1,8 +1,8 @@
 ---
 layout: profiles
-permalink: /groups/
-title: groups
-description: members of DISCO6G
+permalink: /grupos/
+title: grupos
+description: miembros de DISCO6G
 nav: true
 nav_order: 3
 
@@ -22,11 +22,11 @@ profiles:
     more_info: >
       NETCOM-UC3M
   - align: right
-    image: logo_giros.svg
+    image: logo_upm.png
     content: about_giros.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <a href="https://www.dit.upm.es/~giros"> GIROS-UPM</a>
+      GIROS-UPM
   - align: left
     image: logo_upm.png
     content: about_grc.md

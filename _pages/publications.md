@@ -3,8 +3,8 @@ layout: page
 permalink: /publicaciones/
 title: publicaciones
 description: Publicaciones ordenadas cronológicamente asociadas a DISCO-6G.
-years: [2026, 2025, 2024]
-conference_years: [2025, 2024]
+years: [2025]
+conference_years: [2025]
 nav: true
 nav_order: 2
 ---

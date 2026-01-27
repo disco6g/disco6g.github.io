@@ -4,7 +4,11 @@
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
   {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
+    {% assign months = "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre" | split: "," %}
+    {% assign day = 'now' | date: "%d" | plus: 0 %}
+    {% assign month_index = 'now' | date: "%m" | plus: 0 | minus: 1 %}
+
+    Última actualización: {{ day }} de {{ months[month_index] }} de {{ 'now' | date: "%Y" }}.
   {% endif %}
   &copy; Copyright {{ site.time | date: '%Y' }}
   {{ site.title }}. 

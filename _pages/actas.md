@@ -3,7 +3,7 @@ layout: page
 permalink: /actas/
 title: actas
 description: Repositorio de actas y diferentes materiales.
-nav: false
+nav: true
 nav_order: 4
 ---
 

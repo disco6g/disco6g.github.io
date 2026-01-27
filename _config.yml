@@ -30,7 +30,7 @@ footer_text: >
   </div>
 
 # keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: es # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 📡 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://disco6g.github.io # the base hostname & protocol for your site
@@ -167,6 +167,11 @@ collections:
     output: true
   projects:
     output: true
+
+announcements:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

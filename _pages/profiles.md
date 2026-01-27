@@ -4,7 +4,7 @@ permalink: /groups/
 title: groups
 description: members of DISCO6G
 nav: true
-nav_order: 7
+nav_order: 3
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
